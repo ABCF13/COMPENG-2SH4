@@ -1,0 +1,50 @@
+Binary Operators and Unary Operators
+
+B:
+*,-,/,%,=
+U:
++,-,++,--
+
+Accumulator and Deccumulator can be applied prior or following an evaluation:
+
+>>> ++var * 2
+>>> (var+1) * 2
+2*var + 2
+
+>>> var++*2
+>>> var*2
+2*var+1
+
+Accumulator and Deccumulator are functions built into the circuit so they hardly affect processing time
+These operators ONLY work on values stored in variables, never raw numbers or expressions
+
+
+
+
+DATATYPES:
+
+Measures: Floating Point Numbers
+Count: Integers
+Display: Characters
+
+
+char: ASCII characters, can be signed/unsigned, run almost always at 1 byte
+int: can be signed/unsigned, short/long. Run at about 32 bits by standard and can be expanded or shrunk depending on the type specified upon declaration. Some embedded systems or older computer systems need all the memory they can get, so there are ways to modify the standard memory allocation of the datatype.
+floats: decimal approximations used by series of 1/2. Never truly accurate and tolerance is required for comparisons
+
+C89 does not include the simple bool type, this was added in C99/C++
+
+MODS:
+When decalring a specified type of data, the way you tell the compiler is by denoting it through the suffix
+
+eg:
+long int of 77389 -> 77389L
+unsigned int of 21: 21U
+
+Characters can be signed, the standard ascii only occupies the positive half of the signed range [-128,127].
+Developpers can decide how to use the negative range for their specific purposes
+
+
+'X' is a character
+
+"X" is an array, ['X'+'']
