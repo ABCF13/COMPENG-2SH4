@@ -1,0 +1,19 @@
+scanf()
+
+Reads the input stream (keyboard, input peripheral, etc.) and detects + stores from terminal
+
+scanf() has a bunch of prefixes that describe input:
+
+int: %d
+char: %c
+float:%f
+string: %f
+double: %f for printf()
+        %lf for scanf()
+
+'&' is an operator that translates a variable to its location in memory store, you do not need an ampersand for arrays
+
+
+
+
+when you call a bit of memory, if you don't initialize a variable the contents are going to be variables left over from whatever was there prior
