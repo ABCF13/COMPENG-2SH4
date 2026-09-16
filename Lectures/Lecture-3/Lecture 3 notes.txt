@@ -4,3 +4,6 @@ By convention, all functions are to be declared before main() and are to be desc
 
 
 functions= must return one value, arrays are possible!
+
+"filename" the quotation marks denote the relative path
+<filename> the angular brackets call from System Default Folder C:\MinGW\Include
