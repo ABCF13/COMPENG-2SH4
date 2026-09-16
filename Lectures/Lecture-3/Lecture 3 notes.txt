@@ -1,0 +1,6 @@
+Declaring and descriping a function can be made into two distinct processes in C.
+
+By convention, all functions are to be declared before main() and are to be described after main()
+
+
+functions= must return one value, arrays are possible!
