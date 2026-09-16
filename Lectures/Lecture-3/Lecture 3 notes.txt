@@ -7,3 +7,50 @@ functions= must return one value, arrays are possible!
 
 "filename" the quotation marks denote the relative path
 <filename> the angular brackets call from System Default Folder C:\MinGW\Include
+
+
+A function invocation is a STATEMENT. We compute expression result, and save into var. Since its invoked as a statement, terminate line with semicolon
+
+STATEMENT is a variable being assignest to an expression
+and expression is an evaluated value and stored in memory until it is assigned to a variable
+
+
+|       STATEMENT       |
+| Var    |   Expression |
+   X     =  2+4          ;
+
+
+Pass-by-Value
+
+
+Invoke a function 
+
+double my_mean_square(a,b);
+
+int main(void)
+{
+
+
+    double a=10.0;
+    double b=20.0;
+    double c=my_mean_square(a, b);
+
+};
+
+double my_mean_square(double x, double y){
+    double z;
+    x=x*X;
+    y=y*y;
+    z=(x+y)/2.0;
+
+    return z;
+};
+
+---- continued in Lecture3.C
+
+
+Local Variables: created amd destroyed at beginning and end of function, remain in the scope of the function and cannot typically be called from outside of the function
+
+
+Global variables: Can be called anywhere in the script once declared, inefficient for more advanced scripts.
+

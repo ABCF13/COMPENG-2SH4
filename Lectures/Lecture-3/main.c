@@ -21,6 +21,3 @@ int main(void)
 }
 
 
-// Function Implementation (Definition)
-///////////////////////////////////////
-
