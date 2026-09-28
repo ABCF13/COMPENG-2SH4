@@ -1,0 +1,1 @@
+Structure consists of all data types. it will store data for each of them
