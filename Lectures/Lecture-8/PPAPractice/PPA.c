@@ -60,7 +60,7 @@ int main(void)
                 break;
 
         }
-
+        input=0;
         //Draw screen
         MacUILib_clearScreen();
         for(i=0; i<XDIM;i++)
