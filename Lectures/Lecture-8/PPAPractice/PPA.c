@@ -62,6 +62,7 @@ int main(void)
         }
 
         //Draw screen
+        MacUILib_clearScreen();
         for(i=0; i<XDIM;i++)
         {
             if(i==player.xPos)
