@@ -35,12 +35,14 @@ int main(void)
     // FIX THE CODE WITH MINIMUM CHANGES.
     do
     {        
-        if(isLarger(input, data[i]))
+        if(isLarger(input, data[i])){
             data[i] = input * 2;
-        else if(isSmaller(input, data[i]))
+            printf("Hi program works\n");}
+        else if(isSmaller(input, data[i])){
             data[i] = input / 2;
-    }  
-    while(data[i++] = input);    
+            printf("lowlowlow\n");}
+        }while(data[i++] != input && i<20);    
 
     return 0;
-}
+    };
+
