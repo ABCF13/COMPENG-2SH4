@@ -8,7 +8,7 @@
           "name": "C/C++ Debugger Launch",
           "type": "cppdbg",
           "request": "launch",
-          "program": "${workspaceFolder}/example",
+          "program": "${workspaceFolder}/example", // gcc ex.c -o example -g
           "args": [],
           "cwd": "${workspaceRoot}",
           "stopAtEntry": false,          
