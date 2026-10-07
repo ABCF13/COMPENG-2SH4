@@ -1,0 +1,28 @@
+Single Process Memory Map:
+
+
+
+Stack // Variable created within the code block must be deleted by the end of the block. Does not allow you to DELETE on demand!
+---------------------------------------
+EMPTY? //stack overflow
+
+
+
+
+above this point is called stack/stack overflow ^ ^ ^ ------------------------- V V V below this point is called the heap. NEED POINTERS
+
+
+Static element // 0 + 8 byte to iterate through an array because the deeper the list the higher the address.
+---------------------------------------
+Program
+
+
+
+high lvel memory fills top-to bottom and low level memory filles bottom up.
+
+
+
+
+& : %d -> %p
+
+& cannot be applied to non-variable literals
