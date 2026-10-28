@@ -1,9 +1,9 @@
-1. E
-2. D
-3. C
-4. E
-5. C
-6. B
+1. E|Wrong, B|Correct
+2. D|Correct
+3. C|Correct
+4. E|Correct
+5. A|Correct
+6. B|Correct
 7. 
     A)
         f(6,8,10)
@@ -98,7 +98,7 @@
 
                 loop 2 
                 myData[4]=myData[4/2]=myData[2]= 11
-                myData=[2,11,8,15,11,0]
+                myData=[2,11,11,15,11,0]
                 i=6
 
                 loop 3
@@ -108,7 +108,7 @@
 
             forloop1
                 i=5
-                myData=[2,11,8,15,11,0]
+                myData=[2,11,11,15,11,0]
                 loop1
                 >>> 0
                 loop2
@@ -116,7 +116,7 @@
                 loop3
                 >>> 15
                 loop4
-                >>> 8
+                >>> 11
                 loop5
                 >>> 11
                 loop6
