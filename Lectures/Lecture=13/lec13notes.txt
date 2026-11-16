@@ -1,5 +1,0 @@
-let a and b b e pointers
-
-a-b = (*a - *b)/sizeof(*a)
-
-*(numbuffer+i) == numbuffer[i]

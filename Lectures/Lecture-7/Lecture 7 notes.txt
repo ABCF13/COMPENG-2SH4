@@ -1,9 +1,0 @@
-Primitive arrays
-
-DECLATARATION:
-
-data_type array_name [ array_size ];
-
-
-an array's size is pre-processing. The size cannot be variable to user inputs and must be declared within the script.
-

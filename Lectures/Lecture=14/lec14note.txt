@@ -1,7 +1,0 @@
-calloc()/malloc() - create
-realloc() - adjust size
-
-free() - destroy
-
-
-anything you create and adjust on the heap must be free()'d by the end of the program.

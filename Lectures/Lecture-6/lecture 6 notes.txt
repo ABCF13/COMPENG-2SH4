@@ -1,8 +1,0 @@
-Type conversion
-
-C automatically converts the primitive data types according to the statement context
-
-A. Operand values of char or short in artithmetic expressions are automatically converted into ints
-
-(type)var assigns a variable to a type 
-
